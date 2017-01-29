@@ -31,9 +31,7 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 		int length = input.length();
-		String sub1 = input.substring(0,2);
-		String sub2 = input.substring(2,length);
-	  return sub1 + sub2;
+		return input.substring(2,length) + input.substring(0,2);
 	}
 
 	/**
