@@ -18,5 +18,9 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cs2340m2_main" target="1.5" />
+      <module name="cs2340m2_test" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
