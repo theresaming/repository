@@ -44,8 +44,8 @@ public class Person3 {
 	private String calc(String input) {
 	  //Person 3 put your implementation here
 	  String reversed = "";
-	 	for (int i = input.length - 1; i >= 0; i--) {
-			reversed += i;
+	 	for (int i = input.length() - 1; i >= 0; i--) {
+			reversed += input.charAt(i);
 		}
 		return reversed;
 	}
