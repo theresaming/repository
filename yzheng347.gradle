@@ -36,3 +36,4 @@ test {
         excludeCategories 'org.gradle.junit.CategoryB'
     }
 }
+}
