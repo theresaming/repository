@@ -9,7 +9,7 @@ dependencies {
 
 jar  {
   manifest {
-     attributes  'Implementation-Title' : 'Gradle Quickstart' ,
+     attributes  'Implementation-Title' : 'Theresa Ming - Gradle' ,
                  'Implementation-Version' : version,
                  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
                  //cd out of current directiory
