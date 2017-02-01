@@ -23,13 +23,6 @@ jar  {
 task myJavadocs(type: Javadoc) {
     source = sourceSets.main.allJava
 }
-
-compileJava {
-    options.fork = true
-    options.incremental = true
-
-}
-
 repositories {
     mavenCentral()
 }
