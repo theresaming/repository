@@ -12,8 +12,7 @@ jar  {
      attributes  'Implementation-Title' : 'Gradle Quickstart' ,
                  'Implementation-Version' : version,
                  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
-                 //cd out of current directiory
-                 'Class-Path': 'lib/resources.jar'
+                 'Class-Path': '../../lib/resources.jar'
 
     }
     baseName = 'nstoltzfus3.jar'
